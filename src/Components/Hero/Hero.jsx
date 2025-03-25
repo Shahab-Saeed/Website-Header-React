@@ -9,7 +9,7 @@ const Hero = (props) => {
         <div className="hero-text">
           <p>{props.heroData.text1}</p>
           <p>{props.heroData.text2}</p>
-        </div>
+        </div> 
         <div className="hero-explore">
           <p>Explore the features</p>
           <img src={arrowbtn} alt="" />

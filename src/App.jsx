@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import "./App.css"
 import { useState } from 'react'
 import Background from './Components/Background/Background'
 import Navbar from './Components/Navbar/Navbar'
@@ -20,7 +21,7 @@ useEffect(()=>{
   }, 3000);
 },[])
   return (
-    <div>
+    <div className='bgg'>
         <Background playstatus={playstatus} herocount={herocount}/>    
         <Navbar/>        
         <Hero setplaystatus={setPlayStatus} heroData={heroData[herocount]} herocount={herocount} setherocount={setherocount} playstatus={playstatus}/>
