@@ -94,10 +94,7 @@
         background-color: white;
         cursor: pointer;
     }
-    .hero-dot-play{
-       justify-content: space-between;
-      
-    }
+    
   
 }
 
@@ -129,14 +126,6 @@
     }
   
 
-    
-    .hero-dot-play{
-       justify-content: space-between;
-       width: 100%;
-       padding: 0px 30px;
-        gap: 50px;
-        position: absolute;
-        bottom: 30px;
-    }
+ 
   
 }
